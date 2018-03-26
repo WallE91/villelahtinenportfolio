@@ -1,0 +1,905 @@
+body {
+  color: #000;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h2, h3{
+    font-family: 'Dosis', sans-serif !important;
+}
+
+p {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h1 {
+	font-family: 'Oxygen', sans-serif !important;
+	text-transform: uppercase !important;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+
+/*
+Header
+*/
+
+
+header {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #3a0031;
+  color: #fff !important;
+  position: relative;
+  height: 110vh;
+}
+header .section{
+  padding-bottom: 100px !important;
+}
+header h1{
+  font-family: 'Audiowide', cursive !important;
+  font-size: 100px !important;
+  padding-top: 200px !important;
+}
+header h2{
+  font-family: 'Oxygen', sans-serif !important;
+  font-size: 36px !important;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/*
+Particles in header
+*/
+
+#particle {
+	position: relative;
+}
+
+#particle canvas{
+	position: absolute;
+	z-index: 996;
+	opacity: 0.15;
+}
+
+
+
+/*
+Profile
+*/
+
+#profile {
+  
+}
+
+#profile .infoparagraph {
+	padding-bottom: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 860px;
+	margin: 0 auto;
+	text-align: center !important;
+}
+
+#profile .infoparagraph h2 {
+   font-size: 32px;
+   line-height: 2em;
+}
+
+
+#profile .infoparagraph p {
+  font-size: 18px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.2em;
+  
+}
+
+#profilepicture{
+	width: 200px;
+	height: 200px;
+	background-image: url('../images/profiilikuva8.jpg');
+	background-position: 55% 30%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 350%;
+	background-color: #ccc;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+
+
+
+
+/*
+NAVIGATION BAR
+*/
+
+/*
+Navigation bar generally
+*/
+
+.navbar{
+	font-family: 'Titillium Web', sans-serif !important;
+	background-color: #000;
+	border: none;
+	margin-bottom: 0;
+}
+
+.container {
+      width: 100% 
+}
+
+.navbar .navbar-brand {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	color: #fff;
+	background-color: #000;
+}
+
+.navbar .navbar-brand .fa {
+	font-size: 32px;
+	position: absolute;
+	top: 28%;
+	left: 28%;
+}
+
+.navbar .navbar-brand:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.navbar-brand:focus {
+	color: #fff !important;
+	background-color: #666 !important;
+}
+
+.navbar .navbar-nav {
+	float: right;
+	list-style: none;
+    display: inline-block !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar .navbar-nav > li {
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+
+.navbar .navbar-nav > li > a {
+	position: relative;
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 20px;  
+	line-height: 1em;
+}
+
+.navbar .navbar-nav > li > a:hover {
+	color: #c400a5 !important;
+	font-size: 20px; 
+}
+
+.navbar .navbar-nav .visible-xs {
+	display: none;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+
+/*
+Navigation active links
+*/
+
+
+.navbar-nav>.active> a,
+.navbar-nav>.active> a:hover,
+.navbar-nav>.active> a:focus {
+    background-color: #000 !important;
+	font-weight: 600;
+}
+
+
+
+
+/*
+Navigation bar toggle view (mobile screen)
+*/
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 100%;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+  transition: all 0.3s;
+  background-color: #fff !important;
+  height: 5px;
+}
+.navbar-toggle .top-bar {
+  width: 33px;
+  transform: rotate(45deg);
+  transform-origin: 9%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  width: 33px;
+  transform: rotate(-45deg);
+  transform-origin: 11% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+  width: 26px;
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+  width: 26px;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+  width: 26px;
+}
+
+
+
+
+/*
+Sections
+*/
+
+.section {
+	min-height: 500px;
+	position: relative;
+	padding-bottom: 80px;
+	min-height: 105vh;
+}
+
+.section .container{
+	width: 100%;
+}
+
+.section #skills, .section #techskills, .section #technologies {
+	min-height: 400px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.section h1{
+	font-size: 48px;
+	padding-top: 90px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.section p {
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+/*
+ Who I am?
+*/
+
+#info {
+	
+}
+
+/*
+ What I do?
+*/
+
+#mywork  {
+	padding-bottom: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #3a0031;
+	width: 100%;
+	text-align: center;
+}
+
+#mywork h1 {
+	color: #fff !important;
+}
+
+#mywork p {
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 1.2em;
+}
+
+#mywork .skillbox {
+	max-width: 280px;
+	max-height: 280px;
+	display: inline-block;
+	float: none;
+	padding-top: 20px;
+	margin-bottom: 80px;
+	color: #fff;
+}
+
+#mywork .skillbox h2 {
+	font-size: 22px !important;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#mywork .skillbox .glyphicon,
+#mywork .skillbox .fa{
+	font-size: 120px;
+	padding: 20px;
+}
+
+.seperator {
+  height: 1px;
+  width: 80%;
+  margin: 30px auto;
+  display: none;
+  background: #fff;
+}
+
+#separator {
+  background: #000 !important;
+}
+
+
+
+
+
+/*
+Technologies and tools --> right side 
+*/
+
+#skillset {
+	background-color: #fff;
+	color: #000 !important;
+	
+}
+
+
+
+#skillset .container{
+	width: 100% !important;
+}
+
+#skillset .strength-list{
+	width: 100%;
+	list-style: none;
+	display: inline;
+}
+
+/* Chart */
+
+#skillset .circle {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#skillset .circle .percent{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* Media */
+
+#media{
+	background-color: #3a0031;
+	color: #fff;
+}
+
+#media h1{
+	padding-bottom: 40px;
+}
+
+#media h2{
+	padding-bottom: 40px;
+}
+
+#media p{
+	font-size: 18px;
+	padding-bottom: 40px;
+	line-height: 1.2em
+}
+
+#media .musicplayer {
+	min-height: 300px;
+	margin: 0 auto !important;
+}
+
+/* Audio player */
+iframe {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+
+
+
+
+
+
+/*
+#footer
+*/
+
+#footer{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	background-color: #000 !important;
+	padding-top: 30px;
+}
+
+#footer .footerheader {
+	font-family: 'Oxygen', sans-serif !important;
+	color: #fff;
+	font-size: 28px;
+	text-transform: uppercase;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#footer p {
+	color: #fff;
+	font-size: 16px;
+}
+
+#footer ul{
+	width: 100%;
+}
+
+#footer li {
+	display: inline-block;
+}
+
+#footer .contact {
+	padding-bottom: 20px;
+}
+
+#footer .contact #cvbtn {
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 0px;
+	border: 1px solid #fff;
+	background-color: #000;
+}
+
+#footer .contact #cvbtn a{
+	color: #fff !important;
+}
+
+#footer .contact #cvbtn:hover {
+	background-color: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#footer .contact #cvbtn:hover a{
+	color: #000 !important;
+}
+
+#footer .contact .footerheader{
+	padding-bottom: 40px !important;
+}
+
+#footer .socialmedia {
+	padding-bottom: 0px;
+}
+
+#footer .contact .fa{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 24px;
+	color: #c400a5;
+}
+
+#footer .socialmedia .fa{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#footer .socialmedia .fa:after, 
+#footer .socialmedia .fa:before,
+#footer .socialmedia .fa:visited{
+	color: #fff !important;
+}
+
+
+#facebook{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#linkedin{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#whatsapp{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#soundcloud{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+
+#facebook:hover{
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	color: #fff !important;
+	background-color: #3B5998;
+	-ms-transform: rotate(720deg); /* IE 9 */
+	-webkit-transform: rotate(720deg); /* Chrome, Safari, Opera */
+	transform: rotate(720deg);
+}
+
+#linkedin:hover{
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	color: #fff !important;
+	background-color: #0077B5;
+	-ms-transform: rotate(720deg); /* IE 9 */
+	-webkit-transform: rotate(720deg); /* Chrome, Safari, Opera */
+	transform: rotate(720deg);
+}
+
+#whatsapp:hover{
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	color: #fff !important;
+	background-color: #25d366;
+	-ms-transform: rotate(720deg); /* IE 9 */
+	-webkit-transform: rotate(720deg); /* Chrome, Safari, Opera */
+	transform: rotate(720deg);
+}
+#soundcloud:hover{
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	color: #fff !important;
+	background-color: #ff7700;
+	-ms-transform: rotate(720deg); /* IE 9 */
+	-webkit-transform: rotate(720deg); /* Chrome, Safari, Opera */
+	transform: rotate(720deg);
+}
+
+.copyright {
+	text-align: center;
+	color: #fff;
+	background-color: #000 !important;
+	font-style: italic;
+	padding-top: 50px;
+	margin: 0;
+}
+
+/*
+ * Icons between sections
+*/
+
+.iconbetween {
+	width: 60px;
+    position: absolute;
+	top: -30px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 100%;
+}
+
+.iconbetween .glyphicon{
+	font-size: 40px;
+	padding: 10px;
+	padding-left: 12px;
+	display: inline-block;
+	color: #000;
+}
+
+.iconbetween .fa{
+	font-size: 40px;
+	padding: 10px;
+	display: inline-block;
+	color: #000;
+}
+
+.iconbetween .fa-user-secret{
+	font-size: 44px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+.iconbetween .fa-music{
+	font-size: 44px;
+	padding: 10px;
+}
+
+.iconbetween .fa-sliders{
+	font-size: 40px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+/*
+ * Media Queries
+*/
+
+@media only screen and (max-width : 1200px){
+	#mywork {
+		padding-bottom: 100px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#mywork .skillbox {
+		width: 100%;
+		max-width: 400px;
+	}
+	#mywork .skillbox .glyphicon{
+		font-size: 120px;
+	}
+	iframe {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.navbar-header {
+		  float: none;
+	  }
+	  .navbar-left,.navbar-right {
+		  float: none !important;
+	  }
+	  .navbar-toggle {
+		  display: block;
+	  }
+	  .navbar-collapse {
+		  border-top: 1px solid transparent;
+		  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	  }
+	  .navbar-fixed-top {
+		  top: 0;
+		  border-width: 0 0 1px;
+	  }
+	  .navbar-collapse.collapse {
+		  display: none!important;
+	  }
+	  .navbar-nav {
+		  width: 100%;
+		  float: none !important;
+		  margin: 0 auto !important;
+	  }
+	  .navbar-nav>li {
+		  float: none;
+		  text-align: left;
+	  }
+	  .navbar .navbar-nav > li > a {
+			line-height: 1.5em;
+	  }
+	  .navbar-collapse.collapse {
+		  display: none !important;
+	  }
+	  .navbar-collapse.collapse.in {
+		  display: block !important;
+	  }
+	  .navbar-header .collapse, .navbar-toggle {
+		  display:block !important;
+	  }
+}
+ 
+
+@media only screen and (max-width : 992px){
+	  #media .musicplayer{
+		  padding-bottom: 100px;
+	  }
+}
+
+
+@media only screen and (max-width : 768px) {
+	.navbar-nav {
+		padding-left: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	.navbar-nav > li {
+		display: block !important;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+	.navbar-nav > #homepage {
+		display:  inline !important;
+	}
+	#mywork .skillbox {
+		width: 100%;
+		max-width: 320px;
+	}
+	#mywork h1 {
+		margin-bottom: 0px;
+	}
+	header h1{
+	  font-size: 64px !important;
+	  padding-top: 225px !important;
+	}
+	header .btn-group .dropdown-menu{
+	  padding-left: 0 !important;
+	  padding-right: 0 !important;
+	}
+	header .btn-group .dropdown-menu li{
+	  padding-left: 20px !important;
+	  padding-right: 20px !important;
+	}
+	iframe {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#skillset .strength-list .strength{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.seperator {
+	  display: block;
+	}
+	#skillset .circle {
+		padding-left: 70px;
+		padding-right: 70px;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+}
+
+
+@media only screen and (max-width : 480px){
+	p {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	header {
+		
+	}
+	header .btn-group .dropdown-menu{
+	  padding-left: 5px !important;
+	  padding-right: 5px !important;
+	}
+	header h1{
+	  font-size: 42px !important;
+	  padding-top: 150px !important;
+	}
+	header h2{
+	  font-size: 28px !important;
+	}
+	.section {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.section h1{
+		font-size: 36px;
+	}
+	.section #skills, .section #techskills, .section #technologies {
+		min-height: 400px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#profile {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#profile .infoparagraph {
+		padding-bottom: 70px;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+	
+	}
+	#profile .infoparagraph h1 {
+		padding-left: 15px;
+	}
+	#profile .infoparagraph p {
+		font-size: 16px !important;
+		line-height: 1.2em;
+	}
+	#skillset .strength-list .strength{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	iframe {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#mywork {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#mywork .skillbox {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#footer .socialmedia .fa{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	#skillset .circle {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+}
+
+
+@media only screen and (max-width : 320px){
+	
+}

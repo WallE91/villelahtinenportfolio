@@ -1,76 +1,265 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Example app</title>
-    <meta name="description" content="" />
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/gradients.css" rel="stylesheet">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Ville Lahtinen Portfolio 2017</title>
+		
+		<!-- jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		
+		<!-- my own script file -->
+		<script src="js/myscripts.js"></script>
+		
+		<!-- bootstrap css -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+		
+		<!-- custom styles css -->
+		<link href="css/style.css" rel="stylesheet" />  
+		
+		<!-- Font Awesome css -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Oxygen:300|Titillium+Web:400|Audiowide|Dosis+300" rel="stylesheet">
+		
+		<!-- Circliful css -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/circliful/1.0.4/css/jquery.circliful.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- Particleground -->
+		<script type='text/javascript' src='js/jquery.particleground.min.js'></script>
+		<script type='text/javascript' src='js/particles.js'></script>
+		
+	</head>
+	<body>
+	
+	
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar top-bar"></span>
+				<span class="icon-bar middle-bar"></span>
+				<span class="icon-bar bottom-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+			</div>
 
-<body class="">
-    <div class="wrapper">
-        <div class="graphics">
-            <div class="tower">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="-11 170 1000 429" enable-background="new -11 170 1000 429" xml:space="preserve">
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M989,595H712v-35c0,0,4.5-1.8,8-3
-                                                                                                  c5.2-1.8,12.5,5.3,22-4c3.4-3.4-0.9-7.8-0.4-10.1c0.7-3.1,4.4-6.8,1.6-11.4c-2.6-4.2-6.9-3.6-8.2-5.5c-1.7-2.3-2.2-6.3-7-9
-                                                                                                  c-5.6-3.1-9.9,0.2-13-1c-2.5-0.9-2.3-5-9-5c-4.8,0-7.2,4.8-10,5c-2.3,0.2-4.9-4.5-10-2c-5.5,2.8-4,7.3-6,9c-1.4,1.2-3.1,3.2-6,4.2
-                                                                                                  c-2.6,0.9-4.9,3-4,8.8c0.6,3.7,6.8,4.1,7.5,6c1,2.9-6.4,6.2-2.5,12c3,4.5,9,1.6,12,1c1.9-0.4,7.1-0.7,8,0c3.4,2.5,9,5,9,5v35
-                                                                                                  l-506-1.5L182.3,444l0.3-0.8v-69.6l-0.2-0.2l12.3-72.3c10.9-2.6,16.5-6.5,16.5-6.5l-5.2-2.9l1.1-5.8l15-3.3l-10.1-3.9l1.2-4.6
-                                                                                                  c-15.8-8.3-32.2-11-32.2-11v-3.6l4.1-6.5h-4.9v-4.4h-8.3V244h-1.2l-1.7-31.2l-1-1.3l-1,1.3l-1.7,31.2h-1.2v4.8h-8.3v4.4h-4.9
-                                                                                                  l4.1,6.5v3.6c0,0-16.5,2.7-32.2,11l1.2,4.6l-10.1,3.9l15,3.3l1.1,5.8l-5.1,2.9c0,0,5.5,3.9,16.4,6.5l12.3,72.4l-0.1,0.1v69.6
-                                                                                                  l0.3,0.8l-14.6,149.4h-1.2H-11"/>
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M8,393.7c0-13.5,12.1-10.8,15.6-14.7
-                                                                                                  c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1
-                                                                                                  c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1
-                                                                                                  c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C21.9,406.3,8,408.6,8,393.7z"/>
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M325.1,313.9c-3.9,3-3.9,10-15.7,11.8
-                                                                                                  c-12.8,2-13.3-6.4-18-6.3c-4.3,0.1-5.7,5.8-13.3,3.9c-8.4-2.1-9.1-8.8-12.5-11c-3.6-2.3-16.5,1.5-16.5-10.2c0-12.4,12-9.1,14.1-13.3
-                                                                                                  c1.1-2.3-1.3-5.6,2.4-9.4c5.8-6,10.4-2.1,13.3-3.9c3.4-2.1,2-10,14.1-10.2c11-0.2,9.9,6,14.1,6.3c3.3,0.2,5-4.7,12.5-0.8
-                                                                                                  c9.6,4.9,6,10.3,8.6,13.3c3.3,3.7,14.9,1.2,14.9,14.1C343.1,312.5,329.8,310.3,325.1,313.9z"/>
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M18.4,229.5c0-13.5,12.1-10.8,15.6-14.7
-                                                                                                  c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1
-                                                                                                  c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1
-                                                                                                  c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C32.2,242.1,18.4,244.4,18.4,229.5z"/>
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M215.8,398.8c0-13.5,12.1-10.8,15.6-14.7
-                                                                                                  c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1
-                                                                                                  c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1
-                                                                                                  c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C229.7,411.3,215.8,413.6,215.8,398.8z"/>
-                </svg>
-
-            </div>
-        </div>
-
-        <header>
-            <nav class="website-nav">
-                <ul>
-                    <li><a class="home-link" href="https://aws.amazon.com/">Home</a></li>
-                    <li><a href="https://aws.amazon.com/what-is-cloud-computing/">About</a></li>
-                    <li><a href="https://aws.amazon.com/solutions/">Services</a></li>
-                    <li><a href="https://aws.amazon.com/contact-us/">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <div class="message">
-            <a class="twitter-link" href="http://twitter.com/home/?status=I%20created%20a%20project%20with%20AWS%20CodeStar!%20%23AWS%20%23AWSCodeStar%20https%3A%2F%2Faws.amazon.com%2Fcodestar"><img src="img/tweet.svg" /></a>
-            <div class="text">
-                <h1>Congratulations!</h1>
-                <h2>You just created an HTML5 web application</h2>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <p class="footer-contents">Designed and developed with
-            <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.
-        </p>
-    </footer>
-
-    <script src="js/set-background.js"></script>
-</body>
-
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div id="navbar" class="collapse navbar-collapse navbar-ex1-collapse">
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a data-scroll="" href="#profile">Profiili</a></li>
+				<li><a data-scroll="" href="#mywork">Mitä teen?</a></li>
+				<li><a data-scroll="" href="#skillset">Tekniset taidot</a></li>
+				<li><a data-scroll="" href="#media">Musiikki</a></li>
+				<li><a data-scroll="" href="#footer">Yhteys</a></li>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	
+		
+		
+		<header id="particle">
+		
+			<section id="home" class="home section">
+				<div class="container">
+					<div class="row">
+					
+						<h1>Portfolio</h1>
+																						
+						<h2>Ville Lahtinen</h2>																			
+					</div>					
+				</div>
+			</section>
+		
+		</header>
+		
+		
+		<section id="profile" class="section">
+			<div class="iconbetween"><span class="fa fa-user-secret"></span></div>
+				<div class="container">
+					<div class="row">
+								<div class="infoparagraph">
+									<div id="profilepicture"></div>
+									<h2>Profiili</h2>
+									<p>Valmistuin mediatekniikan insinööriksi vuonna 2016 Metropolia Ammattikorkeakoulusta.
+									Opintoihin kuuluvan työharjoittelujakson aikana sain käytännön kokemusta media-alan suunnittelutyöstä.
+									Valmistumisen jälkeen olen itsenäisesti päivittänyt osaamistani, ja opetellut mm uusia teknologioita.</p>
+									<p>Osaan tuottaa sisältöä digitaalisen median eri viestintäkanaviin. Minulla on taitoa käsitellä ja muokata selainpohjaista koodia, kuvia, videoita, ääntä ja tarvittaessa myös 3d-malleja.</p>
+									<p>Minua motivoi sellainen luova työ, jossa saa olla mukana suunnittelemassa jotain uutta, ja jossa oman työn tuloksen voi konkreettisesti nähdä tai kuulla valmiina lopputuotteena, esimerkiksi verkkosivustona, lyhytelokuvana tai vaikkapa radiomainoksena.</p>
+								</div>										
+					</div>					
+				</div>
+			</section>
+		 
+		 
+		<section id="mywork" class="section">
+			<div class="iconbetween"><span class="fa fa-magic"></span></div>	
+				<div class="container">
+							<h1>Mitä teen?</h1>
+							<div class="content">
+								<div class="row">
+												<div class="seperator"></div>
+										<div class="col-lg-3 col-md-6 col-sm-6">
+										  <div class="skillbox">
+											<span class="glyphicon glyphicon-eye-open"></span>
+											<h2>Front-end suunnittelu</h2>
+											<p>Verkkosivujen ulkoasun ja käyttöliittymän suunnittelu.</p>
+										  </div>
+										</div>
+												<div class="seperator"></div>
+										<div class="col-lg-3 col-md-6 col-sm-6">
+										  <div class="skillbox">
+											<span class="glyphicon glyphicon-phone"></span>
+											<h2>Responsiivinen suunnittelu</h2>
+											<p>Verkkosivut toimimaan kaikenkokoisilla päätelaitteilla.</p>
+										  </div>
+										</div>
+												<div class="seperator"></div>
+										<div class="col-lg-3 col-md-6 col-sm-6">
+										  <div class="skillbox">
+											<span class="fa fa-paint-brush"></span>
+											<h2>Sisällöntuotanto</h2>
+											<p>Videoiden, kuvien, grafiikan ja tekstisisällön tuottaminen.</p>
+										  </div>
+										</div>
+												<div class="seperator"></div>
+										<div class="col-lg-3 col-md-6 col-sm-6">
+										  <div class="skillbox">
+											<span class="glyphicon glyphicon-headphones"></span>
+											<h2>Audion Jälkikäsittely</h2>
+											<p>Ääniraitojen äänittäminen, musiikin jälkikäsittely, miksaus ja masterointi.</p>
+										  </div>
+												<div class="seperator"></div>
+									    </div>
+								</div>
+							</div>
+				</div>
+		</section>
+		
+		<section id="skillset" class="section">
+			<div class="iconbetween"><span class="fa fa-sliders"></span></div>
+				<div class="container">
+							<h1>Teknologiat ja työkalut</h1>
+									<div id="separator" class="seperator"></div>
+							<div class="content">
+								<div class="strength-list">
+									<div class="row">
+										
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="HTML5, CSS3" data-percent="95" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="LESS, SCSS"  data-percent="70" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Javascript"  data-percent="75" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="jQuery"  data-percent="70" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Bootstrap"  data-percent="95" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="PHP"  data-percent="30" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Wordpress"  data-percent="65" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="AngularJs"  data-percent="60" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Sharepoint"  data-percent="65" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Photoshop"  data-percent="72" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="After Effects"  data-percent="70" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Premiere Pro"  data-percent="85" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Indesign"  data-percent="65" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="FL Studio"  data-percent="92" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Logic Pro X"  data-percent="70" data-total="100"></div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<div class="circle" data-text="Izotope Ozone"  data-percent="85" data-total="100"></div>
+										</div>	
+										
+									</div>
+								</div>
+							</div>	
+				</div>
+		</section> 
+		 
+		<section id="media" class="section">
+			<div class="iconbetween"><span class="fa fa-music"></span></div>
+						<div class="container">
+			
+							<div class="row">
+			
+									<h1>Musiikki</h1>
+								
+									<p>Olen inspiraation innoittamana säveltänyt, miksannut ja masteroinut omaa elektronista musiikkia.</p>
+										
+									<div class="musicplayer">
+												
+											<iframe width="100%" height="395" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/327101326&amp;color=9b0083&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp;show_artwork=false"></iframe>
+									</div>							
+								
+							</div>
+							
+						</div>
+		</section>
+		  
+		<section id="footer" class="footer">
+		  <div class="iconbetween"><span class="fa fa-envelope"></span></div>
+			<div class="container">
+						<div class="row">
+							<div class="contact">
+									<h2 class="footerheader">Ota yhteyttä:</h2>
+									<p><i class="fa fa-envelope-o" aria-hidden="true"></i>ville.lahtinen@kolumbus.fi</p>
+									<p><i class="fa fa-phone" aria-hidden="true"></i>+358 408337329</p>
+									<button id="cvbtn" class="btn btn-default"><a href="cv/Ansioluettelo_Ville_Lahtinen.pdf" target="_blank">Lataa CV</a></button><br/>
+									<button id="cvbtn" class="btn btn-default"><a href="http://ec2-18-188-143-215.us-east-2.compute.amazonaws.com/" target="_blank">AngularJs JSON Api - Projekti</a></button>
+							</div>
+							<div class="socialmedia">
+									<h2 class="footerheader">Sosiaalinen media:</h2>
+									<li>
+										<a href="https://www.facebook.com/ville.lahtinen.94" target="_blank"><i id="facebook" class="fa fa-facebook fa-2x"></i></a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/ville-lahtinen-00791111a/" target="_blank"><i id="linkedin" class="fa fa-linkedin fa-2x"></i></a>
+									</li>
+									<li>
+										<a><i id="whatsapp" class="fa fa-whatsapp fa-2x"></i></a>
+									</li>
+									<li>
+										<a href="https://soundcloud.com/user-534592391" target="_blank"><i id="soundcloud" class="fa fa-soundcloud fa-2x"></i></a>
+									</li>
+									<p class="copyright">&copy; 2017 Ville Lahtinen</p>
+							</div>
+						</div>  
+			</div>
+		</section>
+	 
+	
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/circliful/1.0.4/js/jquery.circliful.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+	</body>
 </html>
